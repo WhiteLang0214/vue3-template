@@ -8,14 +8,14 @@ const router = createRouter({
       component: () => import("@/views/layout.vue"),
       children: [
         {
-          path: "/test/demo1",
-          component: () => import("@/views/demo1.vue")
+          path: "",
+          component: () => import("@/views/index.vue")
         }
       ]
     }
   ],
   // 是否应该禁止尾部斜杠。默认为假
-  strict: true,
+  strict: false,
   // 页面滚动到顶部
   scrollBehavior: () => ({ left: 0, top: 0 }),
 })

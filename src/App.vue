@@ -1,3 +1,12 @@
+<!--
+ * @file name: 
+ * @Descripttion: 
+ * @version: 
+ * @Author: langxue
+ * @Date: 2022-10-14 21:20:10
+ * @LastEditors: langxue
+ * @LastEditTime: 2022-11-18 11:04:31
+-->
 <template>
   <router-view />
 </template>
@@ -15,12 +24,4 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>

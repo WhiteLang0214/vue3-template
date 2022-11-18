@@ -5,6 +5,8 @@ import 'element-plus/dist/index.css';
 import zhCn from 'element-plus/es/locale/lang/zh-cn';
 import router from "./router/index"
 
+import "./styles/reset.css"
+
 createApp(App).use(elementPlus, {
   locale: zhCn,
 }).use(router).mount('#app')
