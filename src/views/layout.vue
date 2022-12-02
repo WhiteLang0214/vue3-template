@@ -1,3 +1,12 @@
+<!--
+ * @file name: 
+ * @Descripttion: 
+ * @version: 
+ * @Author: langxue
+ * @Date: 2022-10-14 21:20:10
+ * @LastEditors: langxue
+ * @LastEditTime: 2022-12-02 15:56:02
+-->
 <template>
   <div id="layout">
     <header>header</header>
@@ -32,6 +41,7 @@
   }
   section {
     flex: 1;
+    width: 100%;
     overflow: hidden;
     background-color: #f4f4f4;
     display: flex;
